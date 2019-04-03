@@ -3,10 +3,17 @@
 
 <?php
     $username = $_REQUEST["username"];
-    echo("Your name is " . $username <br>);
-
     $password = $_REQUEST["password"];
-    echo("Your password is " . $password);
+
+    if(!file_exists($username . ".txt"))
+    {
+        $profile = fopen($username . ".txt", "x");
+
+        fwrite($profile, "username=" . $username . "\n" . "password=" . $password);
+        fclose($profile);
+    } else {
+        echo "<script> alert("USer already exists!")</script>"
+    }
 ?>
 
 </body>
