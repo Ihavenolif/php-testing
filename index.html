@@ -3,21 +3,21 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>7 bit display</title>
+    <title>Idk</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <script lang="javascript" src="index.js"></script>
 </head>
 <body>
-    <a href="login.html">Login</a>
-    <div>
+    <input type="button" class="btn" onclick="gotoLogin()" value="Login">
+    <div class="displayBox">
 
         <form name="form">
-            <input type="number" name="input">
+            <input id="insertNumber" placeholder="Insert a number" type="number" name="input">
         </form>
 
-        <button onclick="colorFrames()">click</button>
-
+        <button id="colorFrames" onclick="colorFrames()">Click to display</button>
+        <div class="displayTable">
         <table>
             <tr style="height:50px">
                 <td style="width:50px" id="a1"></td>
@@ -49,6 +49,7 @@
                 <td style="width:50px" id="e3"></td>
             </tr>
         </table>
+        </div>
     </div>
 </body>
 </html>

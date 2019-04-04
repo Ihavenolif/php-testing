@@ -1,4 +1,16 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+ -webkit-box-shadow: 0 0 0 30px black inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -7,12 +19,14 @@ body{
   background-color: black;
 }
 .login-box{
+  padding: 1%;
   width: 280px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
+  border: 1px solid #4caf50;
 }
 .login-box h1{
   float: left;
@@ -28,6 +42,7 @@ body{
   padding: 8px 0;
   margin: 8px 0;
   border-bottom: 1px solid #4caf50;
+  color: black;
 }
 .textbox i{
   width: 26px;
@@ -37,7 +52,7 @@ body{
 .textbox input{
   border: none;
   outline: none;
-  background: none;
+  background: black ;
   color: white;
   font-size: 18px;
   width: 80%;

@@ -1,0 +1,88 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+ -webkit-box-shadow: 0 0 0 30px black inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /*background: url(bg.jpg) no-repeat;*/
+    background-color: black;
+}
+
+.btn{
+    width: 10%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+#insertNumber{
+    width: 164px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 1px solid #4caf50;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 2%;
+}
+
+#colorFrames {
+    width: 164px;
+    background: none;
+    border: 1px solid #4caf50;
+    color: white;
+    top: 14%;
+    position: absolute;
+    /*padding: 5px;*/
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.displayTable{
+    padding: 1%;
+    width: 164px;
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+    color: white;
+    border: 1px solid #4caf50;
+}
+
+.displayBox{
+    padding: 1%;
+    height: 350px;
+    width: 164px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    border: 1px solid #4caf50;
+}
+
+.textbox{
+    width: 10%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 1px solid #4caf50;
+    background-color: black;
+    color: white;
+}

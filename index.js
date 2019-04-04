@@ -1,3 +1,8 @@
+function gotoLogin()
+{
+    window.location = "login.html";
+}
+
 function colorFrames()
 {
     if(document.forms["form"]["input"].value == 0)
@@ -7,15 +12,15 @@ function colorFrames()
         document.getElementById("a3").style.backgroundColor = "blue";
     
         document.getElementById("b1").style.backgroundColor = "blue";
-        document.getElementById("b2").style.backgroundColor = "white";
+        document.getElementById("b2").style.backgroundColor = "black";
         document.getElementById("b3").style.backgroundColor = "blue";
 
         document.getElementById("c1").style.backgroundColor = "blue";
-        document.getElementById("c2").style.backgroundColor = "white";
+        document.getElementById("c2").style.backgroundColor = "black";
         document.getElementById("c3").style.backgroundColor = "blue";
 
         document.getElementById("d1").style.backgroundColor = "blue";
-        document.getElementById("d2").style.backgroundColor = "white";
+        document.getElementById("d2").style.backgroundColor = "black";
         document.getElementById("d3").style.backgroundColor = "blue";
 
         document.getElementById("e1").style.backgroundColor = "blue";
@@ -26,24 +31,24 @@ function colorFrames()
     if(     document.forms["form"]["input"].value == 1)
     {
         document.getElementById("a1").style.backgroundColor = "blue";
-        document.getElementById("a2").style.backgroundColor = "white";
-        document.getElementById("a3").style.backgroundColor = "white";
+        document.getElementById("a2").style.backgroundColor = "black";
+        document.getElementById("a3").style.backgroundColor = "black";
 
         document.getElementById("b1").style.backgroundColor = "blue";
-        document.getElementById("b2").style.backgroundColor = "white";
-        document.getElementById("b3").style.backgroundColor = "white";
+        document.getElementById("b2").style.backgroundColor = "black";
+        document.getElementById("b3").style.backgroundColor = "black";
 
         document.getElementById("c1").style.backgroundColor = "blue";
-        document.getElementById("c2").style.backgroundColor = "white";
-        document.getElementById("c3").style.backgroundColor = "white";
+        document.getElementById("c2").style.backgroundColor = "black";
+        document.getElementById("c3").style.backgroundColor = "black";
 
         document.getElementById("d1").style.backgroundColor = "blue";
-        document.getElementById("d2").style.backgroundColor = "white";
-        document.getElementById("d3").style.backgroundColor = "white";
+        document.getElementById("d2").style.backgroundColor = "black";
+        document.getElementById("d3").style.backgroundColor = "black";
 
         document.getElementById("e1").style.backgroundColor = "blue";
-        document.getElementById("e2").style.backgroundColor = "white";
-        document.getElementById("e3").style.backgroundColor = "white";
+        document.getElementById("e2").style.backgroundColor = "black";
+        document.getElementById("e3").style.backgroundColor = "black";
     }
 
     if(     document.forms["form"]["input"].value == 2)
@@ -52,8 +57,8 @@ function colorFrames()
         document.getElementById("a2").style.backgroundColor = "blue";
         document.getElementById("a3").style.backgroundColor = "blue";
     
-        document.getElementById("b1").style.backgroundColor = "white";
-        document.getElementById("b2").style.backgroundColor = "white";
+        document.getElementById("b1").style.backgroundColor = "black";
+        document.getElementById("b2").style.backgroundColor = "black";
         document.getElementById("b3").style.backgroundColor = "blue";
 
         document.getElementById("c1").style.backgroundColor = "blue";
@@ -61,8 +66,8 @@ function colorFrames()
         document.getElementById("c3").style.backgroundColor = "blue";
 
         document.getElementById("d1").style.backgroundColor = "blue";
-        document.getElementById("d2").style.backgroundColor = "white";
-        document.getElementById("d3").style.backgroundColor = "white";
+        document.getElementById("d2").style.backgroundColor = "black";
+        document.getElementById("d3").style.backgroundColor = "black";
 
         document.getElementById("e1").style.backgroundColor = "blue";
         document.getElementById("e2").style.backgroundColor = "blue";
@@ -75,16 +80,16 @@ function colorFrames()
         document.getElementById("a2").style.backgroundColor = "blue";
         document.getElementById("a3").style.backgroundColor = "blue";
     
-        document.getElementById("b1").style.backgroundColor = "white";
-        document.getElementById("b2").style.backgroundColor = "white";
+        document.getElementById("b1").style.backgroundColor = "black";
+        document.getElementById("b2").style.backgroundColor = "black";
         document.getElementById("b3").style.backgroundColor = "blue";
 
-        document.getElementById("c1").style.backgroundColor = "white";
+        document.getElementById("c1").style.backgroundColor = "black";
         document.getElementById("c2").style.backgroundColor = "blue";
         document.getElementById("c3").style.backgroundColor = "blue";
 
-        document.getElementById("d1").style.backgroundColor = "white";
-        document.getElementById("d2").style.backgroundColor = "white";
+        document.getElementById("d1").style.backgroundColor = "black";
+        document.getElementById("d2").style.backgroundColor = "black";
         document.getElementById("d3").style.backgroundColor = "blue";
 
         document.getElementById("e1").style.backgroundColor = "blue";
@@ -95,23 +100,23 @@ function colorFrames()
     if(     document.forms["form"]["input"].value == 4)
     {
         document.getElementById("a1").style.backgroundColor = "blue";
-        document.getElementById("a2").style.backgroundColor = "white";
+        document.getElementById("a2").style.backgroundColor = "black";
         document.getElementById("a3").style.backgroundColor = "blue";
     
         document.getElementById("b1").style.backgroundColor = "blue";
-        document.getElementById("b2").style.backgroundColor = "white";
+        document.getElementById("b2").style.backgroundColor = "black";
         document.getElementById("b3").style.backgroundColor = "blue";
 
         document.getElementById("c1").style.backgroundColor = "blue";
         document.getElementById("c2").style.backgroundColor = "blue";
         document.getElementById("c3").style.backgroundColor = "blue";
 
-        document.getElementById("d1").style.backgroundColor = "white";
-        document.getElementById("d2").style.backgroundColor = "white";
+        document.getElementById("d1").style.backgroundColor = "black";
+        document.getElementById("d2").style.backgroundColor = "black";
         document.getElementById("d3").style.backgroundColor = "blue";
 
-        document.getElementById("e1").style.backgroundColor = "white";
-        document.getElementById("e2").style.backgroundColor = "white";
+        document.getElementById("e1").style.backgroundColor = "black";
+        document.getElementById("e2").style.backgroundColor = "black";
         document.getElementById("e3").style.backgroundColor = "blue";
     }
 
@@ -122,15 +127,15 @@ function colorFrames()
         document.getElementById("a3").style.backgroundColor = "blue";
     
         document.getElementById("b1").style.backgroundColor = "blue";
-        document.getElementById("b2").style.backgroundColor = "white";
-        document.getElementById("b3").style.backgroundColor = "white";
+        document.getElementById("b2").style.backgroundColor = "black";
+        document.getElementById("b3").style.backgroundColor = "black";
 
         document.getElementById("c1").style.backgroundColor = "blue";
         document.getElementById("c2").style.backgroundColor = "blue";
         document.getElementById("c3").style.backgroundColor = "blue";
 
-        document.getElementById("d1").style.backgroundColor = "white";
-        document.getElementById("d2").style.backgroundColor = "white";
+        document.getElementById("d1").style.backgroundColor = "black";
+        document.getElementById("d2").style.backgroundColor = "black";
         document.getElementById("d3").style.backgroundColor = "blue";
 
         document.getElementById("e1").style.backgroundColor = "blue";
@@ -145,15 +150,15 @@ function colorFrames()
         document.getElementById("a3").style.backgroundColor = "blue";
     
         document.getElementById("b1").style.backgroundColor = "blue";
-        document.getElementById("b2").style.backgroundColor = "white";
-        document.getElementById("b3").style.backgroundColor = "white";
+        document.getElementById("b2").style.backgroundColor = "black";
+        document.getElementById("b3").style.backgroundColor = "black";
 
         document.getElementById("c1").style.backgroundColor = "blue";
         document.getElementById("c2").style.backgroundColor = "blue";
         document.getElementById("c3").style.backgroundColor = "blue";
 
         document.getElementById("d1").style.backgroundColor = "blue";
-        document.getElementById("d2").style.backgroundColor = "white";
+        document.getElementById("d2").style.backgroundColor = "black";
         document.getElementById("d3").style.backgroundColor = "blue";
 
         document.getElementById("e1").style.backgroundColor = "blue";
@@ -167,20 +172,20 @@ function colorFrames()
         document.getElementById("a2").style.backgroundColor = "blue";
         document.getElementById("a3").style.backgroundColor = "blue";
     
-        document.getElementById("b1").style.backgroundColor = "white";
-        document.getElementById("b2").style.backgroundColor = "white";
+        document.getElementById("b1").style.backgroundColor = "black";
+        document.getElementById("b2").style.backgroundColor = "black";
         document.getElementById("b3").style.backgroundColor = "blue";
 
-        document.getElementById("c1").style.backgroundColor = "white";
-        document.getElementById("c2").style.backgroundColor = "white";
+        document.getElementById("c1").style.backgroundColor = "black";
+        document.getElementById("c2").style.backgroundColor = "black";
         document.getElementById("c3").style.backgroundColor = "blue";
 
-        document.getElementById("d1").style.backgroundColor = "white";
-        document.getElementById("d2").style.backgroundColor = "white";
+        document.getElementById("d1").style.backgroundColor = "black";
+        document.getElementById("d2").style.backgroundColor = "black";
         document.getElementById("d3").style.backgroundColor = "blue";
 
-        document.getElementById("e1").style.backgroundColor = "white";
-        document.getElementById("e2").style.backgroundColor = "white";
+        document.getElementById("e1").style.backgroundColor = "black";
+        document.getElementById("e2").style.backgroundColor = "black";
         document.getElementById("e3").style.backgroundColor = "blue";
     }
 
@@ -191,7 +196,7 @@ function colorFrames()
         document.getElementById("a3").style.backgroundColor = "blue";
     
         document.getElementById("b1").style.backgroundColor = "blue";
-        document.getElementById("b2").style.backgroundColor = "white";
+        document.getElementById("b2").style.backgroundColor = "black";
         document.getElementById("b3").style.backgroundColor = "blue";
 
         document.getElementById("c1").style.backgroundColor = "blue";
@@ -199,7 +204,7 @@ function colorFrames()
         document.getElementById("c3").style.backgroundColor = "blue";
 
         document.getElementById("d1").style.backgroundColor = "blue";
-        document.getElementById("d2").style.backgroundColor = "white";
+        document.getElementById("d2").style.backgroundColor = "black";
         document.getElementById("d3").style.backgroundColor = "blue";
 
         document.getElementById("e1").style.backgroundColor = "blue";
@@ -214,19 +219,19 @@ function colorFrames()
         document.getElementById("a3").style.backgroundColor = "blue";
     
         document.getElementById("b1").style.backgroundColor = "blue";
-        document.getElementById("b2").style.backgroundColor = "white";
+        document.getElementById("b2").style.backgroundColor = "black";
         document.getElementById("b3").style.backgroundColor = "blue";
 
         document.getElementById("c1").style.backgroundColor = "blue";
         document.getElementById("c2").style.backgroundColor = "blue";
         document.getElementById("c3").style.backgroundColor = "blue";
 
-        document.getElementById("d1").style.backgroundColor = "white";
-        document.getElementById("d2").style.backgroundColor = "white";
+        document.getElementById("d1").style.backgroundColor = "black";
+        document.getElementById("d2").style.backgroundColor = "black";
         document.getElementById("d3").style.backgroundColor = "blue";
 
-        document.getElementById("e1").style.backgroundColor = "white";
-        document.getElementById("e2").style.backgroundColor = "white";
+        document.getElementById("e1").style.backgroundColor = "black";
+        document.getElementById("e2").style.backgroundColor = "black";
         document.getElementById("e3").style.backgroundColor = "blue";
     }
 

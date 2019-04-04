@@ -1,3 +1,4 @@
-function relocate(){
+function relocate()
+{
     window.location = "index.html";
 }
