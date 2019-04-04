@@ -5,6 +5,15 @@
     $username = $_REQUEST["username"];
     $password = $_REQUEST["password"];
 
+    $tablecreate = "CREATE TABLE Profiles(
+                    ProfileID int,
+                    Username varchar(24),
+                    Passwrd varchar(24),
+                    Reg_date TIMESTAMP
+                    );"
+
+    
+
     //Create connection to MySQL Database
     $connection = new mysqli("localhost", "id9130300_admin", "admin");
 
@@ -12,11 +21,15 @@
     if($connection->connect_error)
     {
         exit("Connection failed: <b>" . $connection->connect_error . "</b>");
-    } else {
-        echo("<b>Connected successfully!</b>");
     }
 
-    if(!file_exists($username . ".txt"))
+    if($connection->query($tablecreate) === TRUE) {
+        echo("<br>Table Profiles created successfully</br>");
+    } else {
+        echo("Error creating table: <br>" . $connection->error . "</br>");
+    }
+
+    /*if(!file_exists($username . ".txt"))
     {
         $profile = fopen($username . ".txt", "x");
 
@@ -26,7 +39,7 @@
         echo '<script> 
                 alert("User already exists!");
               </script>';
-    }
+    }*/
 ?>
 
 </body>
