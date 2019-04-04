@@ -11,9 +11,9 @@
     //Check connection
     if($connection->connect_error)
     {
-        exit("Connection failed: " . $connection->connect_error);
+        exit("Connection failed: <b>" . $connection->connect_error . "</b>");
     } else {
-        echo("Connected successfully!");
+        echo("<b>Connected successfully!</b>");
     }
 
     if(!file_exists($username . ".txt"))
