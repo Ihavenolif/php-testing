@@ -3,7 +3,7 @@
 
 <?php
     $username = $_REQUEST["username"];
-    $password = $_REQUEST["password"];
+    $password = password_hash($_REQUEST["password"]);
     $email = $_REQUEST["email"];
 
     $tablecreate = "CREATE TABLE Profiles(
