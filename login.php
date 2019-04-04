@@ -4,6 +4,7 @@
 <?php
     $username = $_REQUEST["username"];
     $password = $_REQUEST["password"];
+    $email = $_REQUEST["email"];
 
     $tablecreate = "CREATE TABLE Profiles(
                     ProfileID int,
