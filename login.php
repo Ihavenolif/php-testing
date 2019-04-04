@@ -7,10 +7,11 @@
 
     $tablecreate = "CREATE TABLE Profiles(
                     ProfileID int,
+                    E-mail varchar(36),
                     Username varchar(24),
                     Passwrd varchar(24),
                     Reg_date TIMESTAMP
-                    );"
+                    );";
 
     
 
