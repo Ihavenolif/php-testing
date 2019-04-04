@@ -12,7 +12,7 @@
         fwrite($profile, "username=" . $username . "\n" . "password=" . $password);
         fclose($profile);
     } else {
-        echo "<script> alert("USer already exists!")</script>"
+        echo '<script> alert("USer already exists!")</script>'
     }
 ?>
 
