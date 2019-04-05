@@ -3,45 +3,30 @@
 
 <?php
     $username = $_REQUEST["username"];
-    $password = password_hash($_REQUEST["password"]);
+    $password = password_hash($_REQUEST["password"], PASSWORD_DEFAULT);
     $email = $_REQUEST["email"];
 
-    $tablecreate = "CREATE TABLE Profiles(
-                    ProfileID int,
-                    E-mail varchar(36),
-                    Username varchar(24),
-                    Passwrd varchar(24),
-                    Reg_date TIMESTAMP
-                    );";
-
-    
+    $insertinto = " INSERT INTO `profiles`.`Profiles` (`ProfileID`, `Username`, `Password`, `E-Mail`, `RegDate`) 
+                    VALUES (NULL, '$username', '$password', '$email', CURRENT_TIMESTAMP), (NULL, '', '', '', CURRENT_TIMESTAMP);";
 
     //Create connection to MySQL Database
-    $connection = new mysqli("localhost", "id9130300_admin", "admin");
+    $connection = new mysqli("sql.endora.cz:3312", "thewallovec", "admin");
 
     //Check connection
     if($connection->connect_error)
     {
         exit("Connection failed: <b>" . $connection->connect_error . "</b>");
+    } else {
+        echo("<br>Connected successfully!</br>");
     }
 
-    if($connection->query($tablecreate) === TRUE) {
-        echo("<br>Table Profiles created successfully</br>");
+    //echo($insertinto);
+
+    if($connection->query($insertinto) === TRUE) {
+        echo("<br>Account created successfully!</br>");
     } else {
-        echo("Error creating table: <br>" . $connection->error . "</br>");
+        echo("Error creating account: <br>" . $connection->error . "</br>");
     }
-
-    /*if(!file_exists($username . ".txt"))
-    {
-        $profile = fopen($username . ".txt", "x");
-
-        fwrite($profile, "username=" . $username . "\n" . "password=" . $password);
-        fclose($profile);
-    } else {
-        echo '<script> 
-                alert("User already exists!");
-              </script>';
-    }*/
 ?>
 
 </body>
