@@ -18,6 +18,7 @@ body{
 }
 
 .btn{
+    display: inline-block;
     width: 10%;
     background: none;
     border: 2px solid #4caf50;

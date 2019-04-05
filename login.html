@@ -9,6 +9,10 @@
     <script src="login.js"></script>
 </head>
 <body>
+    <nav>
+        <input type="button" class="btnnav" onclick="mainPage()" value="Main Page">
+        <input type="button" class="btnnav" onclick="gotoCookie()" value="Cookieclicker">
+    </nav>
     <div class="login-box">
         <h1>Login</h1>
         <form name="form" action="login.php" method="POST">
@@ -18,7 +22,5 @@
             <input type="submit" class="btn" value="Submit">
         </form>
     </div>
-
-    <input type="button" class="btnback" onclick="relocate()" value="Back">
 </body>
 </html>

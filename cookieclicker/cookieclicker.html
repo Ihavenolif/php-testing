@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cookieclicker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="cookieclicker.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="headerWelcome">Welcome to Cookieclicker!</h1>
+    </header>
+
+    <nav>
+        <input type="button" class="btnnav" onclick="mainPage()" value="Main Page">
+        <input type="button" class="btnnav" onclick="gotoLogin()" value="Login">
+    </nav>
+
+    <div id="spanDiv">
+        <span id="cookieValue"><h3 id="cookieValueDisplay">0</h3></span>
+    </div>
+    <div class="cookieClick">
+        <img id="cookieImage" src="cookie-removebg.png">
+    </div>
+
+    <script src="cookieclicker.js"></script>
+</body>
+</html>

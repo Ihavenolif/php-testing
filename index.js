@@ -3,6 +3,11 @@ function gotoLogin()
     window.location = "login.html";
 }
 
+function gotoCookie()
+{
+    window.location = "cookieclicker/cookieclicker.html";
+}
+
 function colorFrames()
 {
     if(document.forms["form"]["input"].value == 0)
