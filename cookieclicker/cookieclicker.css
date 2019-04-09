@@ -16,7 +16,7 @@ nav{
     display: inline-block;
     margin-right: 0px;
     padding-right: 0;
-    width: 30%;
+    width: 40%;
 }
 
 #headerWelcome{
@@ -32,6 +32,7 @@ nav{
 }
 
 #cookieImage{
+    
     cursor: pointer;
     height: 200px;
     width: 200px;
@@ -56,7 +57,7 @@ nav{
 .btnnav{
     display: inline-block;
     margin: auto;
-    width: 30%;
+    width: 100px;
     height: 50px;
     background: none;
     border: 2px solid #4caf50;
@@ -75,16 +76,16 @@ nav{
     border: 1px solid #4caf50;
 }
 
-#cursorBuyPrice{
+.cursorBuyPrice{
     text-align: left;
 }
 
-#cursorBuyDiv{
+.cursorBuyDiv{
     text-align: right;
     z-index: -1;
 }
 
-#cursorBuy{
+.cursorBuy{
     position: relative;
     text-align: left;
     width: 10%;
@@ -93,6 +94,7 @@ nav{
 
 .newBuy {
     cursor: pointer;
+    border: solid 1px #4caf50;
 }
 
 #cps{

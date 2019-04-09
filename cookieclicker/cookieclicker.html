@@ -6,7 +6,7 @@
     <title>Cookieclicker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="cookieclicker.css" />
-    <script src="main.js"></script>
+    <!--<script src="main.js"></script>-->
 </head>
 <body>
     <header>
@@ -22,23 +22,35 @@
         <h3><span id="cookieValueDisplay" style="border-bottom: solid 2px #4caf50;">Current cookies: 0</span></h3>
     </div>
     <div class="cookieClick">
-        <img id="cookieImage" src="cookie-removebg.png"><br>
+        <img id="cookieImage" src="cookie-removebg.png" draggable="false"><br>
         <h3><span id="cps">Cookies per second: 0</span></h3>
     </div>
 
     <div style="text-align: right;">
-    <div class="buyMenu">
-        <div class="newBuy" id="newCursor">
-            <div id="cursorBuyPrice">
-                <span id="cursorBuyPriceValue">10</span>
+        <div class="buyMenu">
+            <div class="newBuy" id="newCursor">
+                <div class="cursorBuyPrice">
+                    <span id="cursorBuyPriceValue">10</span>
+                </div>
+
+                <div class="cursorBuyDiv">
+                    <img class="cursorBuy" src="cursor.png">
+                </div>
             </div>
 
-            <div id="cursorBuyDiv">
-                <img id="cursorBuy" src="cursor.png">
+            <div class="newBuy" id="newCursorV2">
+                <div class="cursorBuyPrice">
+                    <span id="cursorV2BuyPriceValue">100</span>
+                </div>
+
+                <div class="cursorBuyDiv">
+                    <img class="cursorBuy" src="cursorV2.png">
+                </div>
             </div>
         </div>
     </div>
-    </div>
+
+    <button onclick="pakuj()">pakuj do piče</button>
 
     <script src="cookieclicker.js"></script>
 </body>
