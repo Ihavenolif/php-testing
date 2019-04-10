@@ -16,6 +16,15 @@ function increment(x)
     x += 1;
 }
 
+function save(){
+    var saveString = cps + "." + cpc + "." + cursorPrice + "." + cursorPrice;
+    alert("Copy this string and paste it into Load to save and load the game: \n" + saveString);
+}
+
+function load(){
+    values [] = new Array
+}
+
 document.getElementById("newCursor").addEventListener("click", function(){
     if (cookies >= cursorPrice){
         cps += 1;
@@ -49,7 +58,3 @@ setInterval(function()
     document.getElementById("cookieValueDisplay").innerHTML = "Current cookies: " + Math.round(cookies);
     document.getElementById("cps").innerHTML = "Cookies per second: " + cps;
 }, 10);
-
-function pakuj(){
-    document.getElementsByClassName("oznamy").innerHTML = " ";
-}
