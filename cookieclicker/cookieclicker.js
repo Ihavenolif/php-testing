@@ -17,12 +17,17 @@ function increment(x)
 }
 
 function save(){
-    var saveString = cps + "." + cpc + "." + cursorPrice + "." + cursorPrice;
-    alert("Copy this string and paste it into Load to save and load the game: \n" + saveString);
+    var saveString = cps + "/" + cpc + "/" + cursorPrice + "/" + cursorPrice;
+    alert("Save string copied to clipboard!");
+    navigator.clipboard.writeText(saveString);
 }
 
 function load(){
-    values [] = new Array
+    values = prompt("Enter your save string:").split("/");
+    cps = values[0];
+    cpc = values[1];
+    cursorPrice = values[2];
+    cursorV2Price = values[3];
 }
 
 document.getElementById("newCursor").addEventListener("click", function(){
